@@ -1,0 +1,76 @@
+header {
+    background-color: #003c69dd;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding:0 ;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+div.trim {
+    overflow: hidden;
+    text-align: center;
+    max-height: 250px;
+}
+
+.important {
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-style: italic;
+}
+
+#home h1.important {
+    background-image: url("https://www.thebroad.org/sites/default/files/styles/webp_convert_only/public/art/basquiat_untitled.jpg.webp?itok=2ev8K24x");
+    text-shadow: 2px 4px 5px rgba(101, 160, 255, 255);
+}
+
+#contact h1.important {
+    background-image: url("ucheOkeke_fabledbrute.jpg");
+    text-shadow: 4px 4px 5px rgba(151, 8, 190, 255);
+}
+
+#contact a {
+    text-align: center;
+    text-decoration:double;
+    font-size: 15px;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+    color:aqua;
+}
+
+#contact ul li {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+p.bio {
+    text-align: center;
+}
+
+p.interests {
+    font-family: 'Times';
+    font-size: 20px;
+}
+
+p.footer {
+    font-size: 15px;
+}
