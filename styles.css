@@ -5,7 +5,7 @@ header {
 
 nav ul {
     list-style: none;
-    padding:0 ;
+    padding: 0;
 }
 
 nav li {
@@ -23,11 +23,16 @@ nav a:hover {
     text-decoration: underline;
 }
 
+#content {
+    padding-left: 10px;
+    padding-right: 10px;
+}
 div.trim {
     overflow: hidden;
     text-align: center;
     max-height: 250px;
 }
+
 
 .important {
     font-size: 40px;
@@ -37,30 +42,59 @@ div.trim {
 }
 
 #home h1.important {
-    background-image: url("https://www.thebroad.org/sites/default/files/styles/webp_convert_only/public/art/basquiat_untitled.jpg.webp?itok=2ev8K24x");
+    background-image: url("basq_face.png");
     text-shadow: 2px 4px 5px rgba(101, 160, 255, 255);
 }
 
+#projects h1.important {
+    background-image: url("basq_bird.png");
+    color: white;
+    text-shadow: 2px 4px 5px rgba(160, 10, 20, 255);
+}
+#projects #projlist h3 a{
+    color: darkblue;
+}
+#projects #date {
+    font-size:12px;
+    color:gray;
+}
 #contact h1.important {
     background-image: url("ucheOkeke_fabledbrute.jpg");
     text-shadow: 4px 4px 5px rgba(151, 8, 190, 255);
 }
 
+#contact #links {
+    text-align: center;
+}
+
 #contact a {
     text-align: center;
-    text-decoration:double;
+    text-decoration: double;
     font-size: 15px;
+    color: rgba(101, 160, 255, 255);
 }
 
 #contact a:hover {
     text-decoration: underline;
-    color:aqua;
+    color: aqua;
 }
 
 #contact ul li {
     font-family: 'Courier New', Courier, monospace;
 }
+#content #courses {
+    font-size: 15px;
+    font-style: italic;
+}
 
+.githubImg {
+    background-image: url("github_icon.png");
+}
+
+p.current {
+    font-family: "Times";
+    font-size: 20px;
+}
 
 p.bio {
     text-align: center;
