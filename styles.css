@@ -87,9 +87,11 @@ div.trim {
     font-style: italic;
 }
 
-.githubImg {
-    background-image: url("github_icon.png");
+.github-img {
+    width: 32px; 
+    height: 32px; 
 }
+
 
 p.current {
     font-family: "Times";
