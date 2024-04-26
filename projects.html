@@ -7,54 +7,67 @@
 
 <body>
     <header>
-        <nav>
+        <nav id = "navbar">
             <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li> <a href="resume.pdf">Resume</a></li>
+                <li><a href="home.html"> Home</a></li>
+                <li><a href="projects.html"> Projects</a></li>
+                <li> <a href="resume.pdf" target="_blank"> Resume</a></li>
             </ul>
         </nav>
     </header>
     <div id="content">
         <section id="projects">
             <h1 class="important"> Projects </h1>
-            <p> <em>Some of my major projects and the technologies used. Not in order.</em> </p>
-            <div id="projlist">
-                <h3><a href="https://github.com/pqba/Repertoire"> Repertoire.AI </a> </h3>
-                <p> Generative AI (Google Gemini) based classical music repertoire assistant.  </p>
-                <p id="date"> feb 2024</p>
-                <h3><a href="https://github.com/pqba/ComplexLibrary"> Complex Number Library</a> </h3>
-                <p> A complex number library, built in C++ for Advanced CS course at my high school. </p>
+            <p class = "space-pad"> <em>Some of my major projects and the technologies used. Not in order.</em> </p>
+            <div id="projlist" class = "space-pad">
+                <!-- Add a javascript project and a nodejs project at some point!-->
+                <h3><a href="https://github.com/pqba/Repertoire" target="_blank"> Repertoire.AI </a> </h3>
+                <p> Generative AI (Google Gemini) based classical music repertoire assistant. </p>
+                <p id ="tech">Flask, Bootstrap, GoogleAI</p>
+                <p id="date"> feb-june 2024</p>
+                <h3><a href="https://github.com/pqba/ComplexLibrary" target="_blank"> Complex Number Library</a> </h3>
+                <p> A testable complex number library for CS course practicum. </p>
+                <p id ="tech">C++, CMake</p>
                 <p id="date"> dec 2023</p>
-                <h3><a href = "DigitalDesign_Summer2023Project.pdf" > Rotating Electronic Device </a></h3>
-                <p> Document of the electronic prototype I developed to project moving images in a residential engineering program. Software included Arduino (C++), Ultimaker (3D-Print), and OnShape (CAD). Sautered, machined, and polished prototype for showcase. </p>
-                <p id ="date"> summer 2023</p>
-                <h3><a href="https://github.com/pqba/PixelatedGears-BreakoutSaga"> Pixelated Gears, A Breakout Saga </a>
+                <h3><a href="DigitalDesign_Summer2023Project.pdf" target="_blank"> Rotating Electronic Device </a></h3>
+                <p> Document of the electronic prototype I developed to project moving images in a residential
+                    engineering program. Software included Arduino (C++), Ultimaker (3D-Print), and OnShape (CAD).
+                    Sautered, machined, and polished prototype for showcase. </p>
+                    <p id="tech">CAD, C++, Ultimaker, Circuits</p>
+                <p id="date"> summer 2023</p>
+                <h3><a href="https://github.com/pqba/PixelatedGears-BreakoutSaga" target="_blank"> Pixelated Gears, A Breakout Saga </a>
                 </h3>
                 <p> A game built using the Processing framework in Java that is based on the popular breakout arcade
                     classic. Available on mobile if downloaded as an APK. </p>
+                    <p id ="tech">Processing, Java</p>
                 <p id="date"> june-july 2023 </p>
-                <h3> <a href="https://github.com/pqba/DataStructures">Data Structures & Mini-Apps</a></h3>
+                <h3> <a href="https://github.com/pqba/DataStructures" target="_blank">Data Structures & Mini-Apps</a></h3>
                 <p> Implementations of data structures based on ADT's, with a 'uses' folder that houses mini
                     applications of
-                    them, such as Reverse Polish Notation calculators, distance parsing, and much more. </p>
-                <p id="date"> jan-mar 2024</p>
-                <h3> <a href="https://github.com/pqba/cs50projectname"> CS50projectname (CS50) </a></h3>
+                    them, such as Reverse Polish Notation calculators, event handling system, music playlists  and more. </p>
+                    <p id = "tech">C++</p>
+                <p id="date"> jan-may 2024</p>
+                <h3> <a href="https://github.com/pqba/cs50projectname" target="_blank"> CS50projectname (CS50) </a></h3>
                 <p> App description. Made from CS50 course. </p>
-                <p id="date"> feb 2024</p>
-                <h3> <a href="LINKTOArithmeticHosted"> Arithmetos </a></h3>
-                <p> An app to practice mental arithmetic, self hosted on X, built using Boostrap framework and HTML, CSS, and Vanilla Javascript. </p>
+                <p id="date"> may 2024</p>
+                <h3> <a href="LINKTOArithmeticHosted" target="_blank"> Arithmetos </a></h3>
+                <p> A minimalist app to practice mental arithmetic quickly and accurately. </p>
+                <p id ="tech">Javascript, Bootstrap, HTML & CSS</p>
                 <p id="date"> jan 2024</p>
+                <h3> <a href="https://github.com/pqba/pokergame" target="_blank"> Vegas Lite </a></h3>
+                <p> A fully fledged CLI based poker game simulator with standard bot and an AI opponent that uses
+                    decision trees to place optimal bets. Project built for final in CS course. </p>
+                    <p id ="tech">C++, CMake</p>
+                <p id="date"> apr-may 2024</p>
             </div>
-
-
             <hr>
-            <p> See my whole Github below </p>
-            <a href="https://github.com/pqba" class="github-link">
-                <img src="github_icon.png" alt="GitHub" class="github-img">
-            </a>
-            
-            
+            <div class ="space-pad">
+                <p> See my whole Github below </p>
+                <a href="https://github.com/pqba" target="_blank" class="github-link">
+                    <img src="github_icon.png" alt="GitHub" class="github-img">
+                </a>
+            </div>
         </section>
+        <p id ="pad-bottom"></p>
     </div>
 </body>

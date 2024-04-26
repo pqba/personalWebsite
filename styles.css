@@ -3,9 +3,15 @@ header {
     color: #fff;
 }
 
+body {
+    padding:0;
+    margin:0;
+}
+
 nav ul {
     list-style: none;
     padding: 0;
+    margin:0;
 }
 
 nav li {
@@ -33,23 +39,38 @@ div.trim {
     max-height: 250px;
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #003c69dd;
+    z-index: 10;
+    transition: top 0.3s ease-in-out; /* Add transition property */
+  }
+  
 
 .important {
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     font-style: italic;
+    margin-bottom:2px;
 }
 
 #home h1.important {
     background-image: url("basq_face.png");
     text-shadow: 2px 4px 5px rgba(101, 160, 255, 255);
+    margin-top:0;
+    padding:0;
 }
 
 #projects h1.important {
     background-image: url("basq_bird.png");
     color: white;
     text-shadow: 2px 4px 5px rgba(160, 10, 20, 255);
+    margin-top:0;
+    padding:0;
 }
 #projects #projlist h3 a{
     color: darkblue;
@@ -79,12 +100,48 @@ div.trim {
     color: aqua;
 }
 
+#contact a:active {
+    color:white;
+}
+
 #contact ul li {
     font-family: 'Courier New', Courier, monospace;
 }
-#content #courses {
+
+#content {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.proj-explain {
+    text-align: center;
+    padding:0;
+    margin:0;
+}
+
+.space-pad {
+    padding:5px;
+    margin-bottom:5px;
+    margin-top:5px;
+}
+#content #courses,#technologies  {
     font-size: 15px;
     font-style: italic;
+}
+#projects #projlist h3 a:hover {
+    color:rgb(48, 48, 215);
+}
+
+#projects #projlist h3 a:active {
+    color:rgb(222, 222, 248);
+}
+
+#tech {
+    font-size:small;
+    font-style:italic;
+    color:rgb(10, 49, 49);
+    margin-top: 3px;
+    margin-bottom:3px;
 }
 
 .github-img {
@@ -109,4 +166,9 @@ p.interests {
 
 p.footer {
     font-size: 15px;
+}
+
+#pad-bottom  {
+    padding-bottom: 15px;
+    display: inline-block;
 }
