@@ -59,14 +59,14 @@ div.trim {
 }
 
 #home h1.important {
-    background-image: url("basq_face.png");
+    background-image: url("static/basq_face.png");
     text-shadow: 2px 4px 5px rgba(101, 160, 255, 255);
     margin-top:0;
     padding:0;
 }
 
 #projects h1.important {
-    background-image: url("basq_bird.png");
+    background-image: url("static/basq_bird.png");
     color: white;
     text-shadow: 2px 4px 5px rgba(160, 10, 20, 255);
     margin-top:0;
@@ -80,7 +80,7 @@ div.trim {
     color:gray;
 }
 #contact h1.important {
-    background-image: url("ucheOkeke_fabledbrute.jpg");
+    background-image: url("static/ucheOkeke_fabledbrute.jpg");
     text-shadow: 4px 4px 5px rgba(151, 8, 190, 255);
 }
 
