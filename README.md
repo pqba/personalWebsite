@@ -1,9 +1,9 @@
-# pqba
+# personalWebsite
 > welcome to my corner of the internet
 
 This site is designed to showcase my projects, blog interests, resume, and my engineering projects.
 
-It has a simple design methodology of simplicity in terms of design and software maintainabilty.
+It has a simple design methodology of `simplicity` in terms of design and software maintainabilty.
 
 ## Technology Stack
 
