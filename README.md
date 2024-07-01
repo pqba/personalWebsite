@@ -1,5 +1,19 @@
-# This is a webpage for my account, pqba
+# pqba
+> welcome to my corner of the internet
 
-It uses simple HTML, CSS and has a javascript file (with no functionality).
+This site is designed to showcase my projects, blog interests, resume, and my engineering projects.
 
-To use **and / or** view this website, just clone the repository and download the files. Feel free to edit, but your fork won't be merged.
+It has a simple design methodology of simplicity in terms of design and software maintainabilty.
+
+## Technology Stack
+
+* HTML
+* CSS
+
+## License
+
+This project uses the GPLv3 License for accessible open-source design.
+
+## Acknowledgements
+
+I use images from [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page) as well as generated images from the Magic Studio AI.
